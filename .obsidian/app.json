@@ -1,6 +1,6 @@
 {
   "showLineNumber": true,
-  "vimMode": true,
+  "vimMode": false,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showUnsupportedFiles": true,

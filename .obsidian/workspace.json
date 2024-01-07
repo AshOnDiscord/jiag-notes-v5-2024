@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multivar/Unit 12 - 3D Coords/12.2 - Vectors.md",
+                "file": "Multivar/Unit 12 - 3D Coords/12.1 - 3D Coordinates.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multivar/Unit 12 - 3D Coords/12.2 - Vectors.md",
+                "file": "Multivar/Unit 12 - 3D Coords/12.1 - 3D Coordinates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Multivar/Unit 12 - 3D Coords/12.2 - Vectors.md",
+                "file": "Multivar/Unit 12 - 3D Coords/12.1 - 3D Coordinates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Multivar/Unit 12 - 3D Coords/12.2 - Vectors.md"
+                "file": "Multivar/Unit 12 - 3D Coords/12.1 - 3D Coordinates.md"
               }
             }
           }
@@ -150,18 +150,18 @@
   },
   "active": "9395926569b3e0ee",
   "lastOpenFiles": [
-    "Multivar/Unit 12 - 3D Coords/12.1 - 3D Coordinates.md",
     "Multivar/Unit 12 - 3D Coords/12.2 - Vectors.md",
+    "Images/Pasted image 20240106115839.png",
+    "Images/Pasted image 20240106115759.png",
+    "Images/Pasted image 20240106115548.png",
+    "Images/Pasted image 20240106115520.png",
+    "Multivar/Unit 12 - 3D Coords/12.1 - 3D Coordinates.md",
     "Images/Pasted image 20240106115211.png",
     "Images/Pasted image 20240106115156.png",
     "Images/Pasted image 20240106115137.png",
     "Images/Pasted image 20240106115123.png",
     "Images/Pasted image 20240106112542.png",
     "Images/Pasted image 20240106112529.png",
-    "Images/Pasted image 20240106111110.png",
-    "Images/Pasted image 20240106110953.png",
-    "Images/Pasted image 20240106110808.png",
-    "Images/Pasted image 20240106110651.png",
     "Images",
     "Multivar/Unit 12 - 3D Coords",
     "Multivar"
