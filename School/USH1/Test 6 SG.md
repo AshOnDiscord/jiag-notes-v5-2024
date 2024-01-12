@@ -126,6 +126,7 @@
 ## A9
 - Acknowledge that it is impossible to list all rights
 - Meant to protect people from evil government using the BoR against people
+- Compromise to Federalists
 
 ## A10
 - Any power not claimed by federal government goes to **states**
@@ -207,7 +208,6 @@
 	- Washington, **exercising his power as command in chief of the military**, raises a militia force of 12k people and disperse rebels.
 - **Haitian Revolution (1791)** = Wealthy French slave colony, produces sugar
 	- Led to victory for slaves, abolishment of slavery in Haiti, creation of republic
-
 
 # Washington's Presidency - Tensions w/ Britain
 - Britain blockaded French ports but American merchant ships claimed the right to pass through
