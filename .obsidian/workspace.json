@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5779edced7813675",
+        "id": "9aee71a0f4bffaef",
         "type": "tabs",
         "children": [
           {
-            "id": "01de6ee0f32fd655",
+            "id": "2290d3c9aad22a64",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,8 +147,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "01de6ee0f32fd655",
+  "active": "2290d3c9aad22a64",
   "lastOpenFiles": [
+    "School/USH1/Test 6 SG.md",
+    "Du.md",
     "School/USH1/DemocracysDiscontent.md"
   ]
 }
