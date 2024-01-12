@@ -20,6 +20,14 @@
 	- [Compromise](#Compromise)
 	- [Bank of US](#Bank%20of%20US)
 - [Differing Visions of America](#Differing%20Visions%20of%20America)
+- [Washington's Presidency - French Revolution (1789)](#Washington's%20Presidency%20-%20French%20Revolution%20(1789))
+- [Washington's Presidency - Tensions w/ Britain](#Washington's%20Presidency%20-%20Tensions%20w/%20Britain)
+- [Jay's Treaty](#Jay's%20Treaty)
+- [Washington's Farewell](#Washington's%20Farewell)
+- [Election of 1796](#Election%20of%201796)
+- [John Adams' Presidency - Tensions w/ France](#John%20Adams'%20Presidency%20-%20Tensions%20w/%20France)
+	- [XYZ Affair](#XYZ%20Affair)
+- [Response to Quasi-War](#Response%20to%20Quasi-War)
 
 # Federalists vs. Anti-Federalists
 - Argument to **ratify the Constitution**
@@ -185,3 +193,81 @@
 | More federal power | State's rights |
 | Loose interpretation of Constitution (more federal power) | Strict interpretation of Constitution (more state power) |
 | Hamilton | Thomas Jefferrson |
+
+# Washington's Presidency - French Revolution (1789)
+- Inspired by American Revolution + Enlightenment
+	- French people rose up against the monarchy and aristocracy in the name of "Liberty, Equality, and Brotherhood" --> **First French Republic**
+- British-led coalition of European monarchies went to war with the French Republic (**French Revolutionary Wars**), putting the US in a **difficult** foreign policy situation
+- **Neutrality Proclamation (1793)** = Keeps US out of wars but allows American merchants to **trade with all sides**
+	- Profitable, warring nations purchased American grain
+- Many Americans support the French for **ideological reasons** (including the Republicans)
+- **Radical** Jacobins take over Revolution, execute French monarchy and aristocrats
+	- Leads to Americans **turning away** from these radical actions
+- **Whiskey Rebellion** = Western PA farmers, inspired by the French Revolution, mounts the Whiskey Rebellion to protest the Whiskey Tax and attacks tax collectors
+	- Washington, **exercising his power as command in chief of the military**, raises a militia force of 12k people and disperse rebels.
+- **Haitian Revolution (1791)** = Wealthy French slave colony, produces sugar
+	- Led to victory for slaves, abolishment of slavery in Haiti, creation of republic
+
+
+# Washington's Presidency - Tensions w/ Britain
+- Britain blockaded French ports but American merchant ships claimed the right to pass through
+- **1793** = British has seized 250 American ships
+	- Also **impressing** (forcible seizure of American seamen to serve in the British Navy) sailors for service in the British Navy
+	- British had still **not given up their forts and Native American allies** in the Northwest territory
+		- Encourage Native Americans to attack western settlers
+
+# Jay's Treaty
+- **Accept** British right to stop and seize neutral ships bound for France
+- British **give up** Northwest Territory claims
+- British grants US the **"most favored nation"** trading status
+- US has to make **"full and complete compensation"** to British merchants for pre-Revolutionary War debts owned by American citizens
+- Controversial, gives British a lot of concession
+	- Ratified in **1795** after much debate in the Senate
+	- Too conciliatory and pro-British
+- Apparent closeness with British makes Spain (who is fighting the British nervous)
+	- Spain takes **conciliatory approach** with US, allows US access to port New Orleans (**Pinckney's Treaty**)
+
+# Washington's Farewell
+- Washington does not seek 3rd term, precedent of two terms
+- Sets up first contested election between Federalists and Republicans (**First Party System**)
+	- Both parties try to garner support during the campaign
+- Farewell advice
+	- Stay neutral, avoid entangling alliances
+	- Avoid political parties b/c they divide the nation
+	- Think **nationally**, not locally
+	- Religious principles promote good morality in a republic
+
+# Election of 1796
+- John Adams (F) defeats Thomas Jefferson (R) 71-68.
+	- Jefferson serves as VP
+	- Federalists hold majority in Congress
+
+
+# John Adams' Presidency - Tensions w/ France
+- Jay's Treaty and Adams' pro-British policies angered the French
+	- French begin seizing American ships headed to Britain
+
+## XYZ Affair
+- Adams sends diplomats Pinckney, Gerry, and Marshall to France to resolve the issue
+- French foreign minster **Talleyrand** attempts to secure a bribe from the Americans
+- Federalists respond with slogan "Millions for defense but not one cent for tribute"
+	- U.S. would rather spend money fighting France in an armed conflict than pay them anything in the form of a bribe
+- Congress cuts off trade with France, authorizes **privateering** against French vessels + **undeclared naval (quasi-war) against France**
+
+# Response to Quasi-War
+- Federalist-controlled Congress don't want French people in the US
+	- Espionage
+	- Sabotage
+	- Will support Republicans
+	- Congress passes Acts to make it harder for French foreigners vote
+		- French will vote Republican
+		- Republican Congress can defund war
+- **Naturalization Act** = Lengthened residency requirements for American citizenship from 5 to **14 years**
+	- Very **partisan** act, overextension of powers
+- **Alien Act** = Authorized the president to **deport without trial any foreigner "deemed dangerous"**
+- **Sedition Act** = Prohibits publication of insults/malicious attacks on President of members of Congress
+	- "Clear and present danger"?
+- **Kentucky and Virginia Resolutions (1798, 1799)** = State's rights interpretation of Constitution
+	- **States have right to judge legitimacy of federal laws**
+		- States must follow BOTH federal laws and the Constitution.
+		- If a federal law is in conflict of the Constitution, the state can **nullify** the federal law
