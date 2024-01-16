@@ -1,8 +1,9 @@
 {
   "accentColor": "",
   "theme": "obsidian",
-  "cssTheme": "Vicious",
+  "cssTheme": "Apatheia",
   "textFontFamily": "Inter",
   "monospaceFontFamily": "Source Code Pro",
-  "interfaceFontFamily": "Calibri"
+  "interfaceFontFamily": "Calibri",
+  "baseFontSize": 16
 }
