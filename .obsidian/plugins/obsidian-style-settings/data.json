@@ -3,5 +3,8 @@
   "ap-theme@@glassMorphism": true,
   "ap-theme@@smoothIndent": true,
   "ap-theme@@Fade": true,
-  "ap-theme@@Hover": true
+  "ap-theme@@Hover": true,
+  "light-and-bright-theme@@dark-theme-settings": "dark-theme-alternate",
+  "shiba-theme-settings@@shiba-colors-theme-dark": "pure-dark",
+  "shiba-theme-settings@@shiba-accent-colors": "accent-lily"
 }
