@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/USH1/Midterm Review.md",
+                "file": "School/AmLit/Midterm Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/USH1/Midterm Review.md",
+                "file": "School/AmLit/Midterm Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/USH1/Midterm Review.md",
+                "file": "School/AmLit/Midterm Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/USH1/Midterm Review.md"
+                "file": "School/AmLit/Midterm Review.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "2290d3c9aad22a64",
   "lastOpenFiles": [
+    "School/USH1/Midterm Review.md",
+    "School/AmLit/Midterm Review.md",
+    "School/AmLit",
     "Multivar/Unit 15 - Double Integrals/15.1 - Double Integrals Over Rectangless.md",
     "Images/Pasted image 20240116122823.png",
     "Images/Pasted image 20240116122911.png",
@@ -157,7 +160,6 @@
     "Images/Pasted image 20240116122925.png",
     "Images/Pasted image 20240116122729.png",
     "Multivar/Unit 12 - 3D Coords/12.2 - Vectors.md",
-    "School/USH1/Midterm Review.md",
     "Multivar/Unit 15 - Double Integrals",
     "Multivar/Unit 12 - 3D Coords/Untitled",
     "Multivar/Unit 12 - 3D Coords/Untitled.md",
