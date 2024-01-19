@@ -77,11 +77,10 @@ Gatsby:
 - Aspirational and Borderline Delusional = As we saw when he reveals his backstory, Gatsby tries to construct a perfect version of himself (Jay Gatsby rather than James Gatz) and constantly chases after that vision. Even in his relationship with Daisy, he thinks he can repeat the past and fix all of his mistakes. Ultimately, as we reach the end of the book, we see that this idea of a “green light” is the American Dream which we can never really attain.
 - Motivation could also be seen as a good thing because he wants to achieve his goals
 - Obsession for Control: Gatsby is obsessed with the past because he wants to reclaim control over his life and Daisy’s life. He wants to make the past good times as his present.
-- BUT (potential comparison with Frank!!!) although he is controlled by his desire to be with Daisy (like Frank is with Helen) he actually cares about Daisy’s wellbeing, as shown when he takes the blame for Myrtle’s death (and Frank doesn’t care about hurting Helen as long as he’s satisfying himself)
+- BUT (potential comparison with Frank!!!) although he is controlled by his desire to be with Daisy (like Frank is with Helen) he actually cares about Daisy’s wellbeing, as shown when he takes the blame for Myrtle’s death (and Frank doesn’t care about hurting Helen as long as he’s satisfying himself). (This only applies for earlier Frank, compared to ending Frank, the two are very much actually similar, suffering for the girl however Frank ends up taking a more passive take romantically, taking more of a supportive role while Gatsby actively chases after Daisy all the time)
 - In terms of judgment, he has good judgment because he is smart but morally he has bad judgment
 
 Nick:
-
 - Unreliable Narrator
 - Gullible/Too trusting (of Gatsby specifically) - Refuses to believe that Gatsby was a bootlegger
 - Claims that he’s the most honest person he’s ever known
@@ -101,6 +100,7 @@ Tom:
 - Jealous = Tom felt threatened by Gatsby’s wealth and the fact that he is popular and successful, which is why he led a full investigation to knock him down (assert dominance)
 
 Jordan:
+- Just like how Tom represents the old and Gatsby the new in the financial sense, Daisy and Jordan represent the old and new in women. Daisy represents the traditional wife that is fantasized and idolized by men, Jordan (or at least her mask) instead represents the independent strong headed woman of the Roaring 20s. This more or less seems to part of the reason why Daisy has always been so sought after while Jordan, being famous and also in high social ranking, is not so sought after (and most of those who do seem to be more so due to her fame).
 
 Olive Kitteridge
 
