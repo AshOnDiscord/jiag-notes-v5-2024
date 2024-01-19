@@ -8,7 +8,34 @@ Principles:
 5. Buttons are lighter, content containers darker
 
 */
+/* Plugin compatibility */
 
+/* @plugins
+core:
+- audio-recorder
+- backlink
+- bookmarks
+- command-palette
+- daily-notes
+- file-explorer
+- file-recovery
+- global-search
+- graph
+- note-composer
+- outgoing-link
+- outline
+- page-preview
+- properties-view
+- random-note
+- slash-commands
+- starred
+- switcher
+- sync
+- tag-pane
+- templates
+- word-count
+- workspaces
+*/
 /* @settings
 
 name: Kakano
@@ -36,6 +63,20 @@ settings:
     min: 0
     max: 1
     step: 0.1
+  -
+    id: theme-value-darkModeNoteBg
+    title: 'Dark mode note background'
+    description: 'In dark mode, note backgrounds can be near black (default) or full black. Near black is a bit easier on the eyes. Full black will save a little energy on OLED screens which will switch back pixels completely off. And some people just like the way it looks.'
+    type: class-select
+    allowEmpty: false
+    default: theme-value-darkModeNoteBgNearBlack
+    options:
+      -
+        label: 'Near black (less eye strain)'
+        value: theme-value-darkModeNoteBgNearBlack
+      -
+        label: 'Full black (OLED screen will switch pixels off)'
+        value: theme-value-darkModeNoteBgFullBlack
   -
     id: heading-layout-settings
     title: Layout settings
@@ -83,7 +124,7 @@ body {
   --nav-item-background-hover: var(--theme-color-baseSlightlyTransparent);
   --nav-item-children-margin-left: 1em;
   --nav-item-children-padding-left: 0.5em;
-  --nav-item-padding: 0.25em 0.5em 0.25em 0.5em;
+  --nav-item-padding: 0.375em 0.5em 0.375em 0.5em;
   --nav-item-parent-padding: 0.25em 0 0.25em 0;
   --nav-item-color-highlighted: var(--nav-item-hover);
   --p-spacing: 0;
@@ -95,6 +136,7 @@ body {
   --ribbon-background: transparent;
   --ribbon-width: 3em;
   --slider-track-background: var(--theme-color-baseTransparent);
+  --status-bar-background: var(--theme-color-gradientTOp);
   --status-bar-text-color: var(--text-normal);
   --tab-container-background: transparent;
   --tab-curve: calc(var(--tab-radius) * 0.5);
@@ -192,7 +234,6 @@ body .metadata-property[data-property-key="tags"] {
   --text-normal: var(--theme-color-baseVeryVeryDarkened);
   --text-faint: var(--theme-color-baseDarkened);
   --background-prompt: var(--theme-color-baseVeryVeryLightened);
-  --status-bar-background: var(--theme-color-baseLightened);
   --interactive-accent: var(--theme-color-base);
   --interactive-accent-hover: var(--theme-color-base);
   --table-border-color: var(--theme-color-baseLightened);
@@ -229,6 +270,7 @@ body .metadata-property[data-property-key="tags"] {
   --theme-color-controlBgLowWeight: var(--theme-color-baseVeryLightened);
   --theme-color-controlText: var(--theme-color-baseDarkened);
   --theme-color-controlTextHover: var(--theme-color-baseVeryLightened);
+  --theme-color-emptyStateBg: var(--theme-color-baseVeryLightened);
   --theme-color-graphLine: var(--theme-color-baseVeryDarkened);
   --theme-color-graphViewBg: var(--theme-color-baseVeryVeryLightened);
   --theme-color-hotkey: var(--theme-color-base);
@@ -290,12 +332,11 @@ body .metadata-property[data-property-key="tags"] {
   --background-modifier-border-focus: var(--theme-color-baseSlightlyDarkened);
   --background-modifier-border: var(--theme-color-baseSlightlyDarkened);
   --background-modifier-hover: var(--theme-color-base);
-  --background-modifier-message: var(--theme-color-baseVeryLightened);
   --blockquote-border-color: var(--theme-color-baseVeryDarkened);
   --empty-pane-color: var(--theme-color-baseDarkened);
-  --icon-color-focused: white;
+  --icon-color-focused: var(--theme-color-baseVeryLightened);
   --icon-color-hover: hsl(var(--base-h), calc(var(--base-s) * 0.2), calc(var(--base-l)*1.5));
-  --icon-color-hover: white;
+  --icon-color-hover: var(--theme-color-baseVeryLightened);
   --icon-color: var(--theme-color-base);
   --modal-background: var(--theme-color-baseVeryDarkened);
   --nav-collapse-icon-color-collapsed: var(--theme-color-baseSlightlyTransparent);
@@ -304,17 +345,16 @@ body .metadata-property[data-property-key="tags"] {
   --nav-item-background-active: var(--theme-color-base);
   --nav-item-background-selected: var(--theme-color-baseVeryTransparent);
   --nav-item-color-active: var(--theme-color-baseVeryDarkened);
-  --nav-item-color: var(--theme-color-baseVeryLightened);
+  --nav-item-color: var(--theme-color-baseLightened);
   --nav-item-color-hover: black;
   --search-icon-color: var(--theme-color-base);
   --shadow-l: 0 0.125rem 0.5rem hsla(var(--base-h), calc(var(--base-s) * 0.75), calc(var(--base-l)*0.1), 0.2), 0 0.875rem 1.7rem hsla(var(--base-h), calc(var(--base-s) * 0.75), calc(var(--base-l)*0.1), 0.15), 0 2rem 6rem hsla(var(--base-h), calc(var(--base-s) * 0.75), calc(var(--base-l)*0.1), 0.25);
 
   --tab-background-active: var(--background-primary);
   --tab-background-inactive: var(--theme-color-baseVeryDarkened);
-  --text-normal: var(--theme-color-baseVeryVeryLightened);
+  --text-normal: var(--theme-color-baseLightened);
   --text-faint: var(--theme-color-baseSlightlyLightened);
   --background-prompt: var(--theme-color-baseVeryDarkened);
-  --status-bar-background: var(--theme-color-baseVeryDarkened);
   --interactive-accent: var(--theme-color-base);
   --table-border-color: var(--theme-color-baseDarkened);
   --table-header-border-color: var(--theme-color-baseDarkened);
@@ -325,7 +365,8 @@ body .metadata-property[data-property-key="tags"] {
   --metadata-input-background-active: var(--theme-color-baseVeryVeryDarkened);
 
   /* Background for content area */
-  --background-primary: black;
+  /* This may be overridden below by the theme-value-darkModeNoteBg style setting. */
+  --background-primary: color-mix(in srgb, var(--theme-color-base), black calc(100% * 0.95));
   /* Background for controls area */
   --background-secondary: var(--theme-color-baseDarkened);
 
@@ -350,6 +391,7 @@ body .metadata-property[data-property-key="tags"] {
   --theme-color-controlBgLowWeight: var(--theme-color-baseVeryDarkened);
   --theme-color-controlText: var(--theme-color-baseLightened);
   --theme-color-controlTextHover: var(--theme-color-baseVeryDarkened);
+  --theme-color-emptyStateBg: var(--theme-color-baseVeryDarkened);
   --theme-color-graphLine: var(--theme-color-baseVeryLightened);
   --theme-color-graphViewBg: var(--theme-color-baseVeryVeryDarkened);
   --theme-color-hotkey: var(--theme-color-base);
@@ -402,6 +444,11 @@ body .metadata-property[data-property-key="tags"] {
   --pill-color-remove: var(--theme-color-baseVeryDarkened);
   --pill-color-remove-hover: var(--theme-color-baseVeryDarkened);
   --pill-background-remove-hover: var(--theme-color-baseSlightlyDarkened);
+}
+.theme-dark.theme-value-darkModeNoteBgFullBlack {
+  /* Override note background when specified by style settings. */
+  /* There's no equivalent of this for light mode. */
+  --background-primary: black;
 }
 
 /********* Markdown Typography *********/
@@ -716,9 +763,6 @@ li[data-task=">"]>p>input:checked:after {
   border-top-left-radius: var(--radius-xl);
   border-bottom-left-radius: var(--radius-xl);
 }
-.is-phone .prompt-input-cta:empty {
-  display: none;
-}
 .is-phone .modal-container {
   padding: 0.5rem;
 }
@@ -909,13 +953,13 @@ p.mod-warning:has(+ p.mod-warning,.setting-message),
 .workspace-tab-header-inner-close-button,
 .slides-close-btn {
   background-color: transparent;
-  border-radius: 100%;
+  border-radius: 1.5rem;
   border: none;
   color: var(--color-text-interactive);
   /* Above .modal-title */
   z-index: 2;
   width: 1.5rem;
-  height: 1.5rem;
+  height: auto;
 }
 .workspace-tab-header-inner-close-button .svg-icon {
   stroke: var(--color-text-interactive);
@@ -939,7 +983,9 @@ p.mod-warning:has(+ p.mod-warning,.setting-message),
 
 /* close buttons that use a text cross instead of an SVG */
 .document-search-close-button,
-.modal-close-button {
+.modal-close-button,
+.is-mobile .document-search .document-search-close-button,
+.is-mobile .document-replace .document-search-close-button {
   padding: var(--size-2-1);
   width: 1.5rem;
   height: 1.5rem;
@@ -949,6 +995,7 @@ p.mod-warning:has(+ p.mod-warning,.setting-message),
   --icon-stroke: var(--icon-s-stroke-width);
   text-align: center;
   justify-content: center;
+  line-height: 20px;
 }
 .document-search-close-button:before,
 .modal-close-button:before {
@@ -1152,7 +1199,7 @@ p.mod-warning:has(+ p.mod-warning,.setting-message),
   background: transparent;
 }
 
-/* Tab styling */
+/* Tabs */
 .workspace-tab-header {
   border-radius: var(--tab-radius-active) var(--tab-radius-active) 0 0;
 }
@@ -1166,6 +1213,37 @@ p.mod-warning:has(+ p.mod-warning,.setting-message),
 }
 .workspace-tab-header-container-inner {
   gap: 0.25em;
+}
+
+/* Stacked tabs */
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header {
+  background-color: var(--tab-background-inactive);;
+  box-shadow: var(--theme-shadow-input);
+}
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header.is-active {
+  background-color: var(--background-primary);
+}
+
+/* Empty state */
+.empty-state-container {
+  background: var(--theme-color-emptyStateBg);
+  border-radius: var(--radius-m);
+  max-height: none;
+  max-width: none;
+  padding: 1em 1.5em 1.5em 1.5em;
+}
+.empty-state-action-list,
+.is-mobile .empty-state-action-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-top: 0;
+}
+.empty-state-action-list .empty-state-action {
+  padding: 0 1.5em;
+}
+.empty-state-action-list .empty-state-action.mod-close {
+  display: none;
 }
 
 /* Main area */
@@ -1195,14 +1273,6 @@ p.mod-warning:has(+ p.mod-warning,.setting-message),
   background-color: var(--background-primary);
   border-radius: var(--tab-radius);
   box-shadow: var(--theme-shadow-input);
-}
-/* Stacked tabs */
-.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header {
-  background-color: var(--tab-background-inactive);;
-  box-shadow: var(--theme-shadow-input);
-}
-.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header.is-active {
-  background-color: var(--background-primary);
 }
 
 /* Ribbon styling */
@@ -1407,6 +1477,11 @@ p.mod-warning:has(+ p.mod-warning,.setting-message),
     opacity: 1;
   }
 }
+.prompt-input-container,
+.is-phone .prompt-input-container {
+  border-bottom: none;
+  background: var(--background-secondary);
+}
 .prompt {
   background-color: var(--background-prompt);
 }
@@ -1423,7 +1498,6 @@ input.prompt-input[type=text]:focus {
 input[type='text'].prompt-input::placeholder {
   color: var(--theme-color-base);
 }
-
 .prompt-instructions {
   background: var(--background-secondary);
   border-top: 0;
@@ -1548,27 +1622,50 @@ input[type='text']::placeholder,
 textarea::placeholder {
   color: var(--theme-color-inputPlaceholder);
 }
+/* No matches state */
+input.document-search-input.mod-no-match,
+input.document-replace-input.mod-no-match {
+  background-color: color-mix(in srgb, var(--background-input), var(--background-modifier-error) 50%);
+}
 
 /* Buttons - regular */
 button:not(.clickable-icon),
 button:not(.clickable-icon).mod-cta,
-.sync-history-load-more-button {
-  border: none;
+.sync-history-load-more-button,
+.empty-state-action,
+.is-mobile .document-search .document-search-button,
+.is-mobile .document-replace .document-search-button {
   background: var(--theme-color-controlBg);
+  border: none;
+  border-radius: var(--button-radius);
   box-shadow: var(--theme-shadow-control);
   color: var(--theme-color-controlText);
+  padding: 0.25em 0.5em;
+  min-height: var(--input-height);
+  height: auto;
 }
 button:not(.clickable-icon):hover,
 button:not(.clickable-icon).mod-cta:hover,
-.sync-history-load-more-button:hover {
+.sync-history-load-more-button:hover,
+.empty-state-action:hover,
+.is-mobile .document-search .document-search-button:hover,
+.is-mobile .document-replace .document-search-button:hover {
   border: none;
   background: var(--theme-color-controlBgHover);
   color: var(--theme-color-controlTextHover);
 }
 button:not(.clickable-icon):focus,
 button:not(.clickable-icon).mod-cta:focus,
-.sync-history-load-more-button:focus {
+.sync-history-load-more-button:focus ,
+.empty-state-action:focus,
+.is-mobile .document-search .document-search-button:focus,
+.is-mobile .document-replace .document-search-button:focus {
   box-shadow: 0 0 0 3px var(--background-modifier-border-focus);
+}
+
+/* Buttons - regular but small */
+button.search-result-file-match-replace-button {
+  min-height: auto;
 }
 
 /* Buttons - lower visual weight */
@@ -1775,6 +1872,13 @@ body:not(.is-grabbing) .tree-item.nav-file .tree-item-self.is-active:hover,
 .nav-folder-title {
   font-weight: var(--font-medium);
 }
+.nav-file-title,
+.nav-folder-title {
+  padding: 0;
+}
+.tree-item-inner {
+  padding: var(--nav-item-padding);
+}
 
 /* UI Checkboxes */
 .checkbox-container {
@@ -1789,6 +1893,14 @@ input[type=checkbox]:checked:after {
   height: 100%;
   top: 0;
   left: 0;
+}
+
+/********** Tooltips **********/
+
+.tooltip {
+  color: var(--theme-color-notice);
+  background-color: var(--theme-color-noticeBg);
+  padding: 0.5em 1em;
 }
 
 /********** Remote items **********/
@@ -2027,15 +2139,26 @@ input[type=checkbox]:checked:after {
 
 /* Document search */
 .document-search-container,
-.mod-active .document-search-container {
+.mod-active .document-search-container,
+.is-mobile .document-search-container {
   background: var(--background-secondary);
   border-radius: var(--radius-l);
   box-shadow: var(--shadow-s);
   margin: 0 auto;
+  padding: 0.5em;
+}
+.document-search,
+.document-replace {
+  padding: 0;
 }
 .document-search-button {
   border: none;
   color: var(--color-text-interactive);
+}
+.document-search-close-button,
+.is-mobile .document-search .document-search-close-button,
+.is-mobile .document-replace .document-search-close-button {
+  top: calc(50% - 0.5em);
 }
 
 /* Debug modal */
@@ -2243,6 +2366,9 @@ audio::-webkit-media-controls-panel {
 .backlink-pane .search-result-container {
   margin-left: 1em;
 }
+.search-result-file-match-replace-button {
+  bottom: 0.375em;
+}
 .embedded-backlinks .backlink-pane .search-result-file-matches {
   background: none;
   box-shadow: none;
@@ -2329,7 +2455,6 @@ audio::-webkit-media-controls-panel {
 }
 .nav-file-title-content {
   flex-grow: 1;
-  padding: var(--nav-item-padding);
 }
 .nav-file-tag {
   background: transparent;
@@ -2403,6 +2528,7 @@ audio::-webkit-media-controls-panel {
 }
 
 /********** Core Plugin: Note composer **********/
+
 /*   No special styles: uses shared .prompt */
 
 /********** Core Plugin: Outgoing links **********/
@@ -2607,7 +2733,6 @@ body {
 
 .tag-pane-tag > .tree-item-inner {
   /* Tags in sidebar styled the same as in notes, but ligher/darker to sit on colored background */
-  /* TODO: darker */
   background-color: var(--theme-color-tagBgSidebar);
   border-radius: var(--tag-radius);
   border: var(--tag-border-width) solid var(--tag-border-color);
@@ -2700,4 +2825,5 @@ body {
 
 .recent-files-title {
   align-items: center;
+  padding-right: 0.375em;
 }
