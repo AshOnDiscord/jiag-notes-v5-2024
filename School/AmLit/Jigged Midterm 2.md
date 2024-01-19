@@ -98,9 +98,12 @@ Tom:
 - Inconsiderate = Tom seems to think that he can do whatever he wants (dominance) without considering the consequences. "And what's more, I love Daisy too. Once in a while I go off on a spree and make a fool of myself, but I always come back, and in my heart I love her all the time”
 - Greedy - Same as his partner, Daisy, he maintains his affair with Myrtle while lying to her that he dislikes Daisy when in realty he wants both. While Myrtle's death seems to trigger Tom into taking action, Tom never ends up properly grieving over her.
 - Jealous = Tom felt threatened by Gatsby’s wealth and the fact that he is popular and successful, which is why he led a full investigation to knock him down (assert dominance)
+- Tom seems to leak his discrimination whenever he feels threatened of losing his control or feels that he has already lost it (ex: his racism when he feels that he will be overtaken by the other races, his misogyny, or his disdain towards the broke Wilson when Wilson takes control of his mistress Myrtle)
 
 Jordan:
 - Just like how Tom represents the old and Gatsby the new in the financial sense, Daisy and Jordan represent the old and new in women. Daisy represents the traditional wife that is fantasized and idolized by men, Jordan (or at least her mask) instead represents the independent strong headed woman of the Roaring 20s. This more or less seems to part of the reason why Daisy has always been so sought after while Jordan, being famous and also in high social ranking, is not so sought after (and most of those who do seem to be more so due to her fame).
+
+Main of the characters are reckless and are ruined by the consequences when they finally catch up to them in the end.
 
 Olive Kitteridge
 
@@ -146,6 +149,8 @@ Olive:
 Henry:
 
 - Selfish: cares more about himself than this family (emotional affair with Denise, wants to appear good for church without caring how tired Olive is from doing all the housework)
+
+
 
 Christopher:
 

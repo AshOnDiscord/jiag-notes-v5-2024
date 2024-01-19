@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9aee71a0f4bffaef",
+        "id": "b8f5f3e2d6d3a69f",
         "type": "tabs",
         "children": [
           {
-            "id": "2290d3c9aad22a64",
+            "id": "67171f1829950527",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ed5769a96a274797",
@@ -148,21 +147,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2290d3c9aad22a64",
+  "active": "67171f1829950527",
   "lastOpenFiles": [
-    "School/AmLit/Jigged Midterm.md",
+    "School/AmLit/Midterm Review.md",
     "School/AmLit/Jigged Midterm 2.md",
+    "Images/Pasted image 20240116122925.png",
+    "Images/Pasted image 20240118193837.png",
+    "Images/Pasted image 20240118193841.png",
+    "Images/Pasted image 20240118193850.png",
+    "Images/Pasted image 20240118193907.png",
+    "Images/Pasted image 20240118193903.png",
     "Images/Pasted image 20240118194006.png",
     "Images/Pasted image 20240118194003.png",
-    "Images/Pasted image 20240118193955.png",
-    "Images/Pasted image 20240118193950.png",
-    "School/AmLit/Midterm Review.md",
-    "Images/Pasted image 20240118193907.png",
-    "Images/Pasted image 20240118193915.png",
-    "Images/Pasted image 20240118193910.png",
-    "Images/Pasted image 20240118193903.png",
-    "Images/Pasted image 20240118193858.png",
-    "Images/Pasted image 20240118193850.png",
+    "Images/Pasted image 20240106105543.png",
+    "Images/Pasted image 20240106105557.png",
+    "School/AmLit/Jigged Midterm.md",
+    "School/AmLit/Gatsby Admirable Essay.md",
+    "School/AmLit/Untitled",
     "School/USH1/Midterm Review.md",
     "School/AmLit",
     "Multivar/Unit 15 - Double Integrals/15.1 - Double Integrals Over Rectangless.md",
