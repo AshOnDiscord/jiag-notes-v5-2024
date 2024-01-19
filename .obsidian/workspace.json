@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/AmLit/Midterm Review.md",
+                "file": "School/AmLit/Jigged Midterm.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/AmLit/Midterm Review.md",
+                "file": "School/AmLit/Jigged Midterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/AmLit/Midterm Review.md",
+                "file": "School/AmLit/Jigged Midterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/AmLit/Midterm Review.md"
+                "file": "School/AmLit/Jigged Midterm.md"
               }
             }
           }
@@ -143,31 +143,34 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "2290d3c9aad22a64",
   "lastOpenFiles": [
-    "School/USH1/Midterm Review.md",
+    "Images/Pasted image 20240118194006.png",
+    "Images/Pasted image 20240118194003.png",
+    "Images/Pasted image 20240118193955.png",
+    "Images/Pasted image 20240118193950.png",
     "School/AmLit/Midterm Review.md",
+    "Images/Pasted image 20240118193907.png",
+    "Images/Pasted image 20240118193915.png",
+    "Images/Pasted image 20240118193910.png",
+    "School/AmLit/Jigged Midterm.md",
+    "Images/Pasted image 20240118193903.png",
+    "Images/Pasted image 20240118193858.png",
+    "Images/Pasted image 20240118193850.png",
+    "Images/Pasted image 20240118193841.png",
+    "School/USH1/Midterm Review.md",
     "School/AmLit",
     "Multivar/Unit 15 - Double Integrals/15.1 - Double Integrals Over Rectangless.md",
-    "Images/Pasted image 20240116122823.png",
-    "Images/Pasted image 20240116122911.png",
-    "Images/Pasted image 20240116122918.png",
-    "Images/Pasted image 20240116122921.png",
-    "Images/Pasted image 20240116122925.png",
-    "Images/Pasted image 20240116122729.png",
     "Multivar/Unit 12 - 3D Coords/12.2 - Vectors.md",
     "Multivar/Unit 15 - Double Integrals",
     "Multivar/Unit 12 - 3D Coords/Untitled",
     "Multivar/Unit 12 - 3D Coords/Untitled.md",
     "School/USH1/Test 6 SG.md",
     "School/Bio/Midterm Review.md",
-    "Images/Pasted image 20240115120024.png",
-    "Images/Pasted image 20240115115953.png",
-    "Images/Pasted image 20240115114506.png",
-    "Images/Pasted image 20240115114409.png",
     "School/Bio",
     "Untitled.md",
     "Du.md",
