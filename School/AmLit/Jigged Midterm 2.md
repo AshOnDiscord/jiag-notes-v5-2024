@@ -16,7 +16,7 @@ Midterm Info:
 
 - Don’t forget a subclaim
 
-- Morris is bad bc he dies in the snow NO
+- Morris is bad bc he dies in the snow *NO*
 - Morris is bad bc he's overly stubborn, rejecting opportunities to change himself
 - Do the best if you can talk well about a FEW moments - needs to be ACCURATE
 - Talk about both angles - why is one getting top spot, and other is not getting top spot
@@ -38,7 +38,9 @@ Nick starts a relationship with Jordan. Through her, Nick finds out that Gatsby 
 
 Nick arranges for Daisy to come over to his house so that Gatsby can "accidentally" drop by. Daisy and Gatsby start having an affair.
 
-Tom and Daisy come to one of Gatsby's parties. Daisy is disgusted by the ostentatiously vulgar display of wealth, and Tom immediately sees that Gatsby's money most likely comes from crime.
+Daisy falls in love with Gatsby over his wealth due to her shallow and materialistic nature.
+
+Tom and Daisy come to one of Gatsby's parties. Tom immediately sees that Gatsby's money most likely comes from crime.
 
 We learn that Gatsby was born into a poor farming family as James Gatz. He has always been extremely ambitious, creating the Jay Gatsby persona as a way of transforming himself into a successful self-made man—the ideal of the American Dream (Aspirational)
 
@@ -88,12 +90,14 @@ Nick:
 Daisy:
 
 - Materialistic & Obsessed with her place in Society = when Gatsby shows his collection of shirts, Daisy breaks down into tears because it shows that Gatsby is wealthy, and she regrets not waiting for him during the war. When Daisy goes to Gatsby’s party, she is repulsed at the vulgar and ostentatious people that are associated with “new money”. Eventually, her decision to stay with Tom reflects her reluctance to part with her place in society (“Old money”)
-- Weak and indecisive- after Gatsby leaves she needs “some force to shape her life” and immediately goes along with Tom when he becomes that force and proposes to her
-- Also kind of selfish- lets Gatsby take the blame for killing Myrtle and doesn't even own up to it when Wilson shows up at her house and Tom tells him that it was Gatsby
+- Weak and indecisive- after Gatsby leaves she needs “some force to shape her life” and immediately goes along with Tom when he becomes that force and proposes to her. She dislikes making decisions herself and prefers for others to take charge and make the decisions for her, hence why she breaks down after Gatsby leaves for the army as she now needs to make decisions for herself. She is very much aware of Tom's numerous cheating streaks and affairs and yet she never ends up taking action against any of them. She was either peer pressured or brought off by her materialistic nature into marrying Tom
+- Also kind of selfish- lets Gatsby take the blame for killing Myrtle and doesn't even own up to it when Wilson shows up at her house and Tom tells him that it was Gatsby. 
+- Greedy - She also wishes to have both Gatsby and Tom at the same time without any of the repercussions of double timing them. 
+- Disloyal - In addition to the various matters with Gatsby & Tom, she suggests an affair with Nick at one of Gatsby's parties, giving him a green card.
 
 Tom:
-
 - Inconsiderate = Tom seems to think that he can do whatever he wants (dominance) without considering the consequences. "And what's more, I love Daisy too. Once in a while I go off on a spree and make a fool of myself, but I always come back, and in my heart I love her all the time”
+- Greedy - Same as his partner, Daisy, he maintains his affair with Myrtle while lying to her that he dislikes Daisy when in realty he wants both. While Myrtle's death seems to trigger Tom into taking action, Tom never ends up properly grieving over her.
 - Jealous = Tom felt threatened by Gatsby’s wealth and the fact that he is popular and successful, which is why he led a full investigation to knock him down (assert dominance)
 
 Jordan:
